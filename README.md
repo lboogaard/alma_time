@@ -2,6 +2,16 @@
 
 Print available ALMA time in different configurations for a given LST range.
 
+## Install
+
+```
+git clone https://github.com/lboogaard/alma_time.git
+cd alma_time
+pip install .
+```
+
+## Usage
+
 ```
 import alma_time
 
