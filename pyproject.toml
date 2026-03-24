@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools", "setuptools_scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "alma_time"
+authors = [{name = "Leindert Boogaard", email = "boogaard@strw.leidenuniv.nl"}]
+description = "ALMA time available at LST range for different configurations"
+readme = "README.md"
+license = { file = 'LICENSE' }
+dependencies = [
+    "numpy",
+    "astropy"
+]
+dynamic = ['version']
+
+[tool.setuptools_scm]

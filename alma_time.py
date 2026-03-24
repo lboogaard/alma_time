@@ -28,7 +28,7 @@ def time_available(lst_start=0, lst_end=24,
 
     
     Author: Leindert Boogaard
-    Version: 12/04/2024
+    Version: 23/03/2026
         
     """
     grand_total = 0
