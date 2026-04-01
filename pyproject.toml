@@ -14,4 +14,11 @@ dependencies = [
 ]
 dynamic = ['version']
 
+[tool.setuptools]
+py-modules = ['alma_time']
+packages = ['alma_time']
+
+[tool.setuptools.package-data]
+alma_time = ['time_config-C13/*']
+
 [tool.setuptools_scm]
